@@ -7,17 +7,10 @@ on:
 
 jobs:
   build:
-    runs-on: self-hosted
+    runs-on: ubuntu-latest
     strategy:
       matrix:
         include:
-          - project: panacea
-            project_bin: panacead
-            project_dir: .panacea
-            version: v2.0.2
-            repository: https://github.com/medibloc/panacea-core.git
-            namespace: PANACEA
-            build_env: default
           - project: akash
             project_bin: akash
             project_dir: .akash
@@ -137,6 +130,13 @@ jobs:
             version: v2.3.2
             repository: https://github.com/bandprotocol/chain
             namespace: BAND
+            build_env: default
+          - project: panacea
+            project_bin: panacead
+            project_dir: .panacea
+            version: v2.0.2
+            repository: https://github.com/medibloc/panacea-core.git
+            namespace: PANACEA
             build_env: default
     steps:
       - uses: actions/checkout@v2

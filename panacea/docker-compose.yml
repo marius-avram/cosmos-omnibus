@@ -1,5 +1,6 @@
 version: '3.4'
 
+# Required configuration can be found on
 # https://medibloc.gitbook.io/panacea-core/guide/join-the-network 
 
 services:
@@ -11,7 +12,7 @@ services:
         PROJECT_BIN: panacead
         PROJECT_DIR: .panacea
         VERSION: v2.0.2
-        REPOSITORY: https://github.com/medibloc/panacea-core.git
+        REPOSITORY: https://github.com/medibloc/panacea-core
     ports:
       - '1317:1317'
       - '26657:26657'
