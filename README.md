@@ -29,7 +29,8 @@ tagged with the form `$COSMOS_OMNIBUS_VERSION-$PROJECT-$PROJECT_VERSION`.
 |[akash](https://github.com/ovrclk/akash)|`v0.12.1`|`ghcr.io/ovrclk/cosmos-omnibus:v0.0.12-akash-v0.12.1`|[Example](./akash)|
 |[band](https://github.com/bandprotocol/chain)|`v2.3.2`|`ghcr.io/ovrclk/cosmos-omnibus:v0.0.12-band-v2.3.2`|[Example](./band)|
 |[bitcanna](https://github.com/BitCannaGlobal/bcna)|`v1.2`|`ghcr.io/ovrclk/cosmos-omnibus:v0.0.12-bitcanna-v1.2`|[Example](./bitcanna)|
-|[bitsong](https://github.com/bitsongofficial/go-bitsong)|`v0.8.0`|`ghcr.io/ovrclk/cosmos-omnibus:v0.0.12-bitsong-v0.8.0`|[Example](./bitsong)
+|[bitsong](https://github.com/bitsongofficial/go-bitsong)|`v0.8.0`|`ghcr.io/ovrclk/cosmos-omnibus:v0.0.12-bitsong-v0.8.0`|[Example](./bitsong)|
+|[bostrom](https://github.com/cybercongress/go-cyber)|`v0.2.0`|`ghcr.io/ovrclk/cosmos-omnibus:v0.0.12-bostrom-v0.2.0`|[Example](./bostrom)|
 |[cryptoorgchain](https://github.com/crypto-org-chain/chain-main)|`v3.1.1-croeseid`|`ghcr.io/ovrclk/cosmos-omnibus:v0.0.12-cryptoorgchain-v3.1.1-croeseid`|[Example](./cryptoorgchain)|
 |[emoney](https://github.com/e-money/em-ledger)|`v1.1.3`|`ghcr.io/ovrclk/cosmos-omnibus:v0.0.12-emoney-v1.1.3`|[Example](./emoney)|
 |[gaia](https://github.com/cosmos/gaia)|`v5.0.8`|`ghcr.io/ovrclk/cosmos-omnibus:v0.0.12-gaia-v5.0.8`|[Example](./gaia)|

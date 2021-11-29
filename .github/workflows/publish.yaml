@@ -140,6 +140,8 @@ jobs:
             build_env: default
           - project: thornode
             version: chaosnet-multichain
+          - project: bostrom
+            version: v0.2.0
     steps:
       - uses: actions/checkout@v2
       - name: build
